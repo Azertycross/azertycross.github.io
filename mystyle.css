@@ -1,0 +1,286 @@
+body {
+  font-family: "Stack Sans Headline", sans-serif;
+  
+
+header {
+ background-color: white;
+ font-size: 15px;
+ color: white;
+}
+
+#aligne {
+ width: auto;
+ height: auto;
+ position: relative;
+ left: 50px;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: flex-start;
+ }
+
+
+div.aligne {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: flex-start;
+}
+
+
+#block {
+ background-color: white;
+ width: auto;
+ height: auto;
+ left: 50px;
+ padding: 10px;
+ border-radius: 15px;
+ margin : auto;
+ 
+}
+
+
+div.centerimg {
+	img {
+	display: block;
+	margin: auto;
+	padding : 10px;
+	}
+}
+
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+tr:hover {background-color: #04AA6D;}
+
+
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+  cursor: pointer;
+}
+
+.tooltiptext {
+  visibility: hidden;
+  width: 130px;
+  background-color: black;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 65%;
+  margin-left: -65px;
+  opacity: 0.75;
+
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+#carre {
+ background-color: white;
+ width: auto;
+ height: auto;
+ left: 50px;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: flex-start;
+ padding: 10px;
+ border-radius: 15px;
+ margin : auto;
+ position : relative
+ 
+}
+
+
+div.carre {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: flex-start;
+}
+
+
+
+
+div.item {
+margin : auto;
+
+}
+
+
+
+
+
+section {
+ display: -webkit-flex;
+ display: flex;
+  width: auto;
+ height: auto;
+ 
+ a:link, a:visited {
+  color: black;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+
+}
+
+a:hover, a:active {
+  background-color: #04AA6D;
+  color: white;
+  border-radius: 10px;
+  }
+  
+ 
+ 
+ }
+
+
+nav {
+ -webkit-flex: 1;
+ -ms-flex: 1;
+ flex: -1;
+ background: #ccc;
+ padding: 20px;
+}
+
+
+nav ul {
+ list-style-type: none;
+ padding: 0;
+}
+
+
+article {
+
+ background-color: #f1f1f1;
+ color: black;
+ padding: 10px;
+ position : relative;
+}
+
+
+footer {
+height: 555px;
+ background-color: #151A1C;
+ padding: 10px;
+ text-align: center;
+ color: white;
+ 
+ 
+  a:link, a:visited {
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+
+}
+
+a:hover, a:active {
+  background-color: #04AA6D;
+  color: black;
+  border-radius: 10px;
+  }
+ 
+ 
+}
+
+ 
+  
+  
+  
+  ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 2;
+  overflow: hidden;
+  background-color: #333;
+}
+
+ul.topnav li {float: right;}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #111;}
+
+ul.topnav li a.active {background-color: #04AA6D;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    ul.slidenav {
+  list-style-type: none;
+    display: block;
+  margin: 0;
+  padding: 14px 16px;
+}
+
+
+ul.slidenav li a {
+  display: block;
+  color: white;
+  text-align: Left;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.slidenav li a:hover:not(.active) {background-color: #111;}
+
+ul.slidenav li a.active {background-color: #04AA6D;}
+
+ul.slidenav li.right {float: right;}
+
+@media screen and (max-width: 600px) {
+  ul.slidenav li.right, 
+  ul.slidenav li {float: none;}
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+}
